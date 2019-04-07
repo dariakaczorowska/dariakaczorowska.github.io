@@ -35,3 +35,18 @@ color: darkgreen;
 text-decoration: underline;
 text-decoration-color: red;
 }
+
+/* ************************** */
+
+input:focus {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+button:active {
+    background-color: gold;
+}
