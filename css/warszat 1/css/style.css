@@ -27,9 +27,14 @@ input,textarea,select {
     color: #ffffff;
 }
 
-
 label {
-    display: block
+    display: block;
+}
+
+label[for=male],
+label[for=female]
+label[for=agreement] {
+    display: inline-block;
 }
 
 textarea {
@@ -40,6 +45,21 @@ select {
     background: #2b4a64;
     color: #ffffff;
     padding: 4px;
+    display: block;
+    width: 50%;
 }
 
-/* dokończyć */
+input:focus, 
+textarea:focus, 
+select:focus {
+    border-color: #ffffff;
+    background-color:#4e708c;
+}
+
+input[type=submit] {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: green;
+    border: 0;
+    padding: 10px 30px;
+}
