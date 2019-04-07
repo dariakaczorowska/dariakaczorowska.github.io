@@ -1,0 +1,45 @@
+html,body {
+    background-color: #213b50;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    background-color: #213b50;
+    width: 46%;
+    padding: 2%;
+}
+
+input [type="text"],
+input [type="email"],
+input [type="tel"],textarea, select {
+    border: 1px solid #213b50;
+    background-color: #2b4a64;
+    display: block;  
+    width: 50%;
+}
+
+input,textarea,select {
+    background-color: #2b4a64;
+    border: 1px solid #213b50;
+    padding: 4px;
+    color: #ffffff;
+}
+
+
+label {
+    display: block
+}
+
+textarea {
+height: 120px;
+}
+
+select {
+    background: #2b4a64;
+    color: #ffffff;
+    padding: 4px;
+}
+
+/* dokończyć */
