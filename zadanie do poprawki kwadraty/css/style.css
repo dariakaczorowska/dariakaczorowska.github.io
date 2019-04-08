@@ -1,0 +1,22 @@
+body {background: rgb(230, 201, 148)}
+
+#pierwszy, #drugi, #trzeci, #czwarty {
+    background-color:black;
+    display: block; 
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+#pierwszy {
+    opacity: 0.4;
+}
+#drugi {
+    opacity: 0.3;
+}
+#trzeci {
+    opacity: 0.2;
+}
+#czwarty {
+    opacity: 0.1;
+}
