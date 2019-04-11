@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>A Simple Form</h1>
+<h2>Form Fundamentals</h2><br>
+
+<form autocomplete="on">
+    <fieldset id="first">
+        <legend>Customer Info</legend>
+    Name:<br>
+    <input id="name" type="text" name="firstname" placeholder="Enter your name" autofocus required><br><br>
+    Telephone:<br>
+    <input id="number" type="tel" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+    Email address:<br>
+    <input id="mail" type="email" placeholder="Enter your email address" multiple required><br><br>
+    </fieldset>
+    <fieldset id="second">
+        <legend>Books</legend>
+        <select id="books" name="books">
+            <option value="novel">Novel</option>
+            <option value="adventure">Adventure</option>
+            <option value="crime">Crime</option>
+            <option value="thriller">Thriller</option>
+            <option value="travel">Travel</option>
+        </select>
+    Quantity (Maximum 5): <input id="quantity" type="number" name="quantity" min="1" max="5">
+
+    </fieldset><br>
+
+    <input id="submit" type="submit" value="Submit">
+
+
+</form>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(231, 229, 223);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 25px;    
+}
+
+h2 {
+    font-size: 18px;
+}
+h1, h2, legend, fieldset, #submit {
+    color: rgb(56, 5, 48);
+}
+
+input, select {
+    background-color: rgb(209, 207, 202);
+}
+input {
+    height: 20px;
+    width: 140px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset {
+    background-color: rgb(238, 234, 225);
+}
+#first {
+    height: 200px;
+    width: 25%; 
+    text-align: left center; 
+}
+#second {
+    width: 25%;
+}
+#quantity {
+    width: 25px;
+}
+
+#submit, input, select, #quantity {
+    border: solid rgb(56, 5, 48) 1px;
+}
+
+#name, #number, #mail {
+    width: 200px;
+}
