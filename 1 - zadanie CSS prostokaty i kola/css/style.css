@@ -1,0 +1,54 @@
+#outer {
+    height: 600px;
+    width: 500px;
+    background-color: green;
+    position: static;
+}
+
+#innerone, #innertwo, #innerthree, #innerfour {
+    background-color: yellow;
+    height: 150px;
+    width: 120px;
+    position: absolute;
+}
+
+.kolko {
+   position: absolute;
+   top: 65%;
+   left: 57%;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%; 
+   border: 1px solid black;
+   background-color: blue;
+}
+
+#drugie {
+    top: 65%;
+    left: 0%;
+}
+
+#trzecie {
+    top: 0%;
+    left: 0%;
+}
+#czwarte {
+    top: 0%;
+}
+
+#innerone {
+    top: 8px;
+    left: 8px;
+}
+
+#innertwo {
+    left: 380px;
+}
+
+#innerthree {
+    top: 450px;
+}
+
+#innerfour {
+    right: 380px;
+}
