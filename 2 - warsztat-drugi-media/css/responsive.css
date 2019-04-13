@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+#galerry {
+    font-size: 0;
+    width: 80%;
+}
+
+
+@media (min-width: 992px) {
+    figure img {
+        width: 33%;
+    }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    figure img {
+        width: 50%;
+    }
+}
+
+@media (width: 768px) and (max-width: 768px) {
+    figure img {
+            width: 100%;
+        }
+    }
+
+@media (max-width: 480px) {
+    figure img {
+        width: 100%;
+    }
+}
