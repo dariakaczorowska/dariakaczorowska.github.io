@@ -1,0 +1,16 @@
+#background-img {
+  background-color: lightblue;
+  background-image: url("../img/truskawka-zwisajaca-temptation-.jpg");
+  background-repeat: no-repeat;
+  /* background-position: 50px 200px;     */
+  background-position: top center;
+  /* background-size: 30% 30%;  */
+  /* background-size: contain; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* background-position: left top 
+background-position: top center (bedzie na srodku) */
+
+
