@@ -1,0 +1,29 @@
+#kafelki {
+    background-color: #edcf96;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+p {
+    display: inline-block;
+    font-size: 30px; 
+    font-family: "Lato";
+}
+
+#pierwszy {
+    position: absolute;
+    background-color: #7a66e6;
+    height: 150px;
+    top: 108px;
+    width: 54%;
+}
+
+#drugi {
+    position: absolute; 
+    background-color: #2a6fc2;
+    height: 100px;
+    left: 300px;
+    width: 44%
+}
