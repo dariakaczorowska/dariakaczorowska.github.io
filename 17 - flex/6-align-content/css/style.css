@@ -35,12 +35,12 @@ Domyślne kolory 'flex-item' - END
     flex-wrap: wrap;
     height: 700px;
 
-    align-content: stretch;
-/*    align-content: center;    */
-/*    align-content: flex-start;*/
+    /* align-content: stretch; */
+   align-content: center;   
+   /* align-content: flex-start; */
 /*    align-content: flex-end;*/
-/*    align-content: space-between;*/
-/*    align-content: space-around;*/
+   /* align-content: space-between; */
+   /* align-content: space-around; */
 
 
 }
