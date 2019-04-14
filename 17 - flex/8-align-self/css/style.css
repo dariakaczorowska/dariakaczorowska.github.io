@@ -31,11 +31,11 @@ Domyślne kolory 'flex-item' - END
     border: 1px dashed red;
     height: 700px;
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .ordered-item {
-/*	align-self: flex-end;*/
+	align-self: flex-end;
 }
 
 
