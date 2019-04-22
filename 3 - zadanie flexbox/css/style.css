@@ -10,12 +10,18 @@
         background-color: red;
         color: white;
         font-size: 30px;
-        text-align: center;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
     }
 
+    #center {
+        margin: 0; 
+    }
 
     #footer {
         background-color: violet;
+        padding: 10px;
     }
 
     #aside-left, #aside-right, #lorem {
