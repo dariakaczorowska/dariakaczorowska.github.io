@@ -4,8 +4,6 @@ body {
     box-sizing: border-box;
 }
 
-@media all and (min-width: 1170px) {
-
     #obrazek {
         background-image: url("../img/man-1.jpg");
         background-size: cover;
@@ -16,10 +14,11 @@ body {
     #first, #second {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
-        font-weight: bold;
-        background-size: 50%;
+        font-weight: bold; 
         height: 30px;
         margin: auto; 
+        text-align: left;
+        vertical-align: middle;
     }
     
     #first {
@@ -29,60 +28,29 @@ body {
     #second {
         font-size: 25px;
     }
-}
 
 @media all and (min-width:992px) and (max-width:1170px) 
 {
     #obrazek {
         background-image: url("../img/man-2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 70vh;
     }
 
     #first, #second {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: white;
-        font-weight: bold;
-        background-size: 50%;
-        height: 30px;
         text-align: right;
-        margin: auto; 
-    }
-    
-    #first {
-        font-size: 20px;
-    }
-    
-    #second {
-        font-size: 25px;
     }
 }
 
 @media all and (max-width:992px) {
     #obrazek {
         background-image: url("../img/man-1.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
         height: 50vh;
         background-position: center;
         margin: auto;
     }
     
     #first, #second {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: black;
-        font-weight: bold;
-        height: 30px;
-        text-align: center;
-        margin: auto;         
-    }
-    
-    #first {
-        font-size: 20px;
-    }
-    
-    #second {
-        font-size: 25px;
+        text-align: center;       
     }
 }
