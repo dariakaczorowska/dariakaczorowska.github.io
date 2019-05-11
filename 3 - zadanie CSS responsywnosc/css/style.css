@@ -9,16 +9,17 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     #first, #second {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         font-weight: bold; 
-        height: 30px;
         margin: auto; 
-        text-align: left;
-        vertical-align: middle;
+        height: 50px;
+        left: 50px;
     }
     
     #first {
