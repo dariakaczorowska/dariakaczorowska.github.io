@@ -18,5 +18,5 @@ naglowek2.on ({
     'mouseleave' : function() {
         $(this).css('font-size', 'inherit');
     },
-    
 })
+
