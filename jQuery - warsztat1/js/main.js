@@ -29,11 +29,27 @@ $(function() {
     });
 
     function slide(newIndex) {
-        console.log(newIndex);
+        console.log(indexCounter);
 
-        indexCounter = newIndex;
+    if (newIndex < 0 || newIndex >= slideCount) {
+        return; 
     }
 
+    // Ukrywamy napis 
+    const currentTitle = $('.slide-caption').eq(newIndex);
+    currentTitle.fadeOut();
+
+    const marginLeft = newIndex * (-100) + '%';
+
+    // Wywolywanie animacji
+    slideShow.animate({
+        'margin-left' : marginLeft,
+    }, 1000, function() {
+        currentTitle.fadeIn();
+        indexCounter = newIndex;
+    });
+
+    }
 
 });
 
