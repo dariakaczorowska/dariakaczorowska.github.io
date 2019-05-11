@@ -7,7 +7,7 @@ let paragrafy = $('p');
 // console.log(paragrafy);
 
 let paragrafyByClass = $('.par');
-console.log(paragrafyByClass);
+// console.log(paragrafyByClass);
 
 
 
