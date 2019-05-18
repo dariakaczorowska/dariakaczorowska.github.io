@@ -46,8 +46,9 @@ $(function() {
         'margin-left' : marginLeft,
     }, 1000, function() {
         currentTitle.fadeIn();
-        indexCounter = newIndex;
     });
+
+    indexCounter = newIndex;
 
     }
 

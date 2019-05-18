@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bootstrap</title>
+</head>
+<body>
+
+    <!-- buttons -->
+<div class="py-5">
+    <button class="btn btn-primary btn-lg">button 1</button>
+    <button class="btn btn-outline-warning btn-sm">button 2</button>
+    <button class="btn btn-link">button 3</button>
+    <button class="btn btn-danger">button 4</button>
+    <button class="btn">button 5</button>
+</div>
+    <!-- buttons -->
+
+    <!-- grid -->
+    <!-- 
+        grid wymaga odpowiedniej struktury. Zaczynamy od elementu container lub container-fluid, w nim koniecznie umieszczamy element z klasa row i dopiero wtedy mozemy uzywac elementow kolumn z klasami .col-*. Jesli nie zachowamy tej struktury siatka nam sie rozjedzie. 
+     -->
+
+     <div class="container">
+         <div class="row">
+             <div class="item col-lg-4 col-md-6 col-sm-2 col-6 text-center text-uppercase">
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam harum fugiat at facilis quibusdam accusantium! Eius labore velit soluta alias facere et esse vel, ab ea, eos molestiae dolor temporibus?
+             </div>  
+              <!--
+                  > 992px uklad 3 kol. 12/4 (lg)
+                  > 768px && < 992px uklad 2 kol. 12/6 (md)
+                  > 576px && < 768px 12/2 (sm)
+                  < 576px 12/6 (brak prefixu)
+                -->
+             <div class="item col-lg-4 col-md-6 text-justify">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere officiis hic maxime fuga, perferendis corporis! Nulla neque id rerum et magni nemo, impedit, fugiat, sequi suscipit consequuntur repellendus doloremque cumque!
+             </div>
+             <div class="item col-lg-4 col-md-12 text-capitalize">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime eaque corrupti illum consequatur nisi ullam impedit provident. Maxime eum fugit voluptate molestiae iste dicta inventore expedita cumque minus magnam.
+             </div>
+         </div>
+     </div>
+    <!-- grid -->
+
+    <!-- kontenery -->
+    <!-- <div class="container"></div> -->
+    <!-- <div class="container-fluid"></div> -->
+    <!-- kontenery -->
+
+    
+</body>
+</html>
