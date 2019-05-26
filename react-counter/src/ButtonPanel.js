@@ -4,8 +4,10 @@ const ButtonPanel = (props) => {
 
     console.log(props);
     return (
-    <div className='button-panel'>
+     <div className='button-panel'>
     <button onClick={props.changeCounterValue}>Dodaj 1</button>
+    <button onClick={props.clearCounter}>Zeruj</button>
+    <button onClick={props.previousCounter}>Pierwotna</button>
 
     </div>
     );

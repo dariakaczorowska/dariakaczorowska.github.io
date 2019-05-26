@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
 import ButtonPanel from './ButtonPanel';
+import SetValuePanel from './SetValuePanel';
 
 class Counter extends Component {
 
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
-            counterValue: 33
+            counterValue: this.props.initValue
         }
     }
 
-    changeValue = () =>{
+changeValue = () =>{
         this.setState((preValue) => {
             return ({
                 counterValue: preValue.counterValue + 1
@@ -20,16 +21,32 @@ class Counter extends Component {
         });
     }
 
+clearValue = () => {
+    this.setState({counterValue: 0});
+    }
 
-  render() {
+previousValue = () => {
+    this.setState({counterValue: this.props.initValue});
+
+}
+
+setValue = (newValue) => {
+    this.setState({counterValue: newValue});
+}
+
+
+
+render() {
       console.log(this);
   return (
     <div className="counter">
       Licznik: {this.state.counterValue}
-      <ButtonPanel changeCounterValue={this.changeValue}/>
+      <ButtonPanel changeCounterValue={this.changeValue} clearCounter={this.clearValue} previousCounter={this.previousValue} />
+      <SetValuePanel setCounter={this.setValue} />
     </div>
 
   );
 }
 }
+
 export default Counter;
