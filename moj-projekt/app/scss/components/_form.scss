@@ -1,0 +1,39 @@
+.form {
+    padding: $form-inner-spacing;
+    border: 1px solid $form-border-color;
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    a {
+        @include resetLink(blue, 'normal');
+    }
+
+    &__header {
+        background-color: blueviolet;
+        color: #fff;
+    }
+
+    &__btn {
+        border-radius: 3px;
+        border : 1px solid #333;
+        background: lightgreen;
+
+    &:hover {
+        background: red; 
+    }
+
+    &--reset {
+        opacity: .4; 
+    }
+}
+
+&__field {
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 6px; 
+}
+
+    // odpowiednik .form&__header
+}
