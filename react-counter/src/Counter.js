@@ -41,7 +41,9 @@ render() {
   return (
     <div className="counter">
       Licznik: {this.state.counterValue}
-      <ButtonPanel changeCounterValue={this.changeValue} clearCounter={this.clearValue} previousCounter={this.previousValue} />
+      <ButtonPanel changeCounterValue={this.changeValue} 
+      clearCounter={this.clearValue} 
+      previousCounter={this.previousValue} />
       <SetValuePanel setCounter={this.setValue} />
     </div>
 
